@@ -24,6 +24,7 @@ h1 {
 
 #rust, #go, #ruby {
   display: none;
+  text-align: center;
 }
 
 .radio1 {
