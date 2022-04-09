@@ -19,117 +19,119 @@
   <div class="container">
     
     <form id="survey-form">
-      <div class="selector-box">
-        <h3>First select your experience with coding</h3>
-        <select class="form-control" id="experience">
-          <option>Im a n00b, and that's ok!</option>
-          <option>I know what some of the different languages are.</option>
-          <option>I have dabbled in some of coding</option>
-        </select>
-      </div>
+      <div class="for-group">
+        <div class="selector-box">
+          <h3>First select your experience with coding</h3>
+          <select class="form-control" id="experience">
+            <option value="1">Im a n00b, and that's ok!</option>
+            <option value="2">I know what some of the different languages are.</option>
+            <option value="3">I have dabbled in some of coding</option>
+          </select>
+        </div>
 
-      <div class="radio1">
-        <h3>What Interests you more?</h3> <!--languge choices are Rust, Go, Ruby-->
-        <div class="radio">
-          <label>
-            <input type="radio" name="interest" value="rust-poss1" checked>
-            Security, hackers are mean.
-          </label>
+        <div class="radio1">
+          <h3>What Interests you more?</h3> <!--languge choices are Rust, Go, Ruby-->
+          <div class="radio">
+            <label>
+              <input type="radio" name="interest" value="rust-poss1" checked>
+              Security, hackers are mean.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="interest" value="go-poss1">
+              Googling everthing
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="interest" value="ruby-poss1">
+              Simplicity and easy reading
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="interest" value="go-poss1">
-            Googling everthing
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="interest" value="ruby-poss1">
-            Simplicity and easy reading
-          </label>
-        </div>
-      </div>
 
-      <div class="radio2">
-        <h3>Math scares me:</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="torf" value="true" checked>
-            True
-          </label>
+        <div class="radio2">
+          <h3>Math scares me:</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="torf" value="true" checked>
+              True
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="torf" value="false" checked>
+              False
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="torf" value="false">
-            False
-          </label>
-        </div>
-      </div>
 
-      <div class="radio3">
-        <h3>I would rather spend time...</h3>
-        <div class="radio">
-          <label>
-            <input type="radio" name="processing" value="reading" checked>
-            reading.
-          </label>
+        <div class="radio3">
+          <h3>I would rather spend time...</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="processing" value="reading" checked>
+              reading.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="processing" value="puzzle">
+              doing puzzles.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="processing" value="writing">
+              writing stories or poems.
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="processing" value="puzzle">
-            doing puzzles.
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="processing" value="writing">
-            writing stories or poems.
-          </label>
-        </div>
-      </div>
 
-      <div class="radio4">
-        <h4>What type of movie interest you more?</h4>
-        <div class="radio">
-          <label>
-            <input type="radio" name="movies" value="documentaries" checked>
-            Documentaries
-          </label>
+        <div class="radio4">
+          <h4>What type of movie interest you more?</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movies" value="documentaries" checked>
+              Documentaries
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movies" value="thriller">
+              Thriller/Action
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="movies" value="drama">
+              Drama
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="movies" value="thriller">
-            Thriller/Action
-          </label>
+        
+        <button type="submit" class="btn">Submit</button>
+
+        <div id="rust">
+          <h3>Rust!</h3>
+            <!--add img here of Rust logo-->
+          <p>The coding language Genie has seleced Rust as the best coding language that will most likely fit your preferences.</p>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="movies" value="drama">
-            Drama
-          </label>
+        <div id="go">
+          <h3>Go!</h3>
+          <!--add img here of Go logo-->
+          <p>The coding language Genie has selected Go as the best coding language that will most likely fit your preferences.</p>
         </div>
-      </div>
+        <div id="ruby">
+          <h3>Ruby</h3>
+            <!--add img here of Ruby logo-->
+          <p>The coding language Genie has seleced Ruby as the best coding language that will most likely fir your preferences.</p>
+        </div>
       
-      <button type="submit" class="btn">Submit</button>
+      </div>
     </form>
-  </div>
-
-  <div id="results">
-    <div id="rust">
-      <h3>Rust!</h3>
-      <!--add img here of Rust logo-->
-      <p>The coding language Genie has seleced Rust as the best coding language that will most likely fit your preferences.</p>
-    </div>
-    <div id="go">
-      <h3>Go!</h3>
-      <!--add img here of Go logo-->
-      <p>The coding language Genie has selected Go as the best coding language that will most likely fit your preferences.</p>
-    </div>
-    <div id="ruby">
-      <h3>Ruby</h3>
-      <!--add img here of Ruby logo-->
-      <p>The coding language Genie has seleced Ruby as the best coding language that will most likely fir your preferences.</p>
-    </div>
+  
   </div>
 </body>
 </html>
