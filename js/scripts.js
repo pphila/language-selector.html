@@ -12,11 +12,11 @@ $(document).ready(function() {
       $("#rust").hide();
       $("#go").hide();
       $("#ruby").show();
-    } else if (experienceInput + interestInput + trueFalseInput + procInput + moviesInput == 7) {
+    } else if (experienceInput + interestInput + trueFalseInput + procInput + moviesInput <= 7) {
       $("#rust").hide();
       $("#go").show();
       $("#ruby").hide();
-    } else if (experienceInput + interestInput + trueFalseInput + procInput + moviesInput > 8) {
+    } else if (experienceInput + interestInput + trueFalseInput + procInput + moviesInput > 9) {
       $("#rust").show();
       $("#go").hide();
       $("#ruby").hide();

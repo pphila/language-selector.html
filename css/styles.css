@@ -1,17 +1,19 @@
 body {
-  background: lightgray;
+  background: rgba(0, 21, 254, 0.523);
 }
 
 h1 {
   text-align: center;
+  color: whitesmoke;
 }
 
 .header {
   text-align: center;
+  color: blue;
 }
 
 .container {
-  background: white;
+  background: whitesmoke;
   border-radius: 15px;
   width: 1100px;
 }
