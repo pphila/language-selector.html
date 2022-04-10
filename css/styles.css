@@ -1,21 +1,28 @@
 body {
-  background: rgba(0, 21, 254, 0.523);
+  background: linear-gradient(white, darkgray, white);
+  font-family:Impact, 'Arial Narrow Bold', sans-serif;
+  grid: flex;
 }
 
 h1 {
   text-align: center;
-  color: whitesmoke;
+  color: black;
 }
 
 .header {
   text-align: center;
-  color: blue;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .container {
   background: whitesmoke;
+  border: 4px;
   border-radius: 15px;
   width: 1100px;
+  box-shadow: 2px 4px black;
+  margin-bottom: 40px;
 }
 
 .selector-box {
@@ -51,4 +58,19 @@ h1 {
 
 .btn {
   padding: 20px;
+}
+
+#rust {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#go {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#ruby {
+  padding: 10px;
+  margin-bottom: 20px;
 }
